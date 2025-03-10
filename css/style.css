@@ -50,7 +50,7 @@ ul li {
 /* creazione */
 
 .menu-link {
-  width: calc(100% / 3);
+  width: calc(100% / 7);
   color: white;
 }
 
@@ -71,7 +71,8 @@ ul li {
   justify-content: center;
   display: flex;
   background-image: url(../img/jumbo.png);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
 }
 
@@ -98,19 +99,19 @@ ul li {
 
 .section-white {
   background-color: rgb(255, 255, 255);
-  height: 400px;
   padding-top: 10px;
 }
 
-.blocco-blu {
-  background-color: rgb(43, 0, 255);
+.blocco-first-image {
+  background-image: url(../img/item1.svg);
   width: 70%;
-  height: 350px;
+  min-height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
   border: 2px dashed black;
 }
 
-.blocco-rosa {
-  background-color: rgb(252, 154, 232);
+.blocco-text {
   width: 30%;
   border: 2px dashed black;
 }
@@ -121,7 +122,6 @@ ul li {
 
 .section-grey {
   background-color: grey;
-  height: 400px;
   padding-top: 10px;
 }
 
@@ -129,7 +129,25 @@ ul li {
   flex-direction: row-reverse;
 }
 
+.blocco-second-image {
+  background-image: url(../img/item2.svg);
+  width: 70%;
+  min-height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px dashed black;
+}
+
 /* fine seconda sezione */
+
+.blocco-third-image {
+  background-image: url(../img/item3.svg);
+  width: 70%;
+  min-height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px dashed black;
+}
 
 /* quarta sezione*/
 
