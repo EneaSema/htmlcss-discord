@@ -1,0 +1,191 @@
+/* reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+
+/* fine reset */
+
+/* utils */
+
+.blocco-verde-acqua {
+  background-color: rgb(130, 250, 248);
+  width: 25%;
+  height: 350px;
+  border: 2px dashed rgb(255, 255, 255);
+}
+
+/* fine utils */
+
+/* lavorazione header */
+
+.header-page {
+  background-color: aqua;
+  padding-bottom: 10px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 10px auto;
+  justify-content: space-between;
+  display: flex;
+}
+
+.menu-top {
+  background-color: rgb(255, 174, 0);
+  margin: 10px auto;
+  width: 100%;
+  display: flex;
+}
+
+/* creazione */
+
+.menu-link {
+  border: 2px dashed black;
+  width: calc(100% / 3);
+}
+
+.menu-link.taste-logo {
+  text-align: start;
+}
+
+.menu-link.taste-link {
+  text-align: center;
+}
+
+.menu-link.taste-login {
+  text-align: end;
+}
+
+.bg-blue {
+  justify-content: center;
+  display: flex;
+  background-color: blue;
+  border: 2px solid black;
+}
+
+.small-purple {
+  background-color: rgb(191, 0, 255);
+  min-width: 50%;
+  min-height: 300px;
+  margin: 10px auto;
+  border: 2px dashed black;
+}
+
+/* fine header */
+
+/* inzio main con relative sezioni */
+
+/*prima sezione */
+
+.section-white {
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+  padding-top: 10px;
+}
+
+.blocco-blu {
+  background-color: rgb(43, 0, 255);
+  width: 70%;
+  height: 350px;
+  border: 2px dashed black;
+}
+
+.blocco-rosa {
+  background-color: rgb(252, 154, 232);
+  width: 30%;
+  border: 2px dashed black;
+}
+
+/* fine prima sezione */
+
+/* inizio seconda sezione */
+
+.section-grey {
+  background-color: grey;
+  height: 400px;
+  padding-top: 10px;
+}
+
+.container-reverse {
+  flex-direction: row-reverse;
+}
+
+/* fine seconda sezione */
+
+/* quarta sezione*/
+
+.blocco-verde {
+  background-color: green;
+  width: 100%;
+  height: 350px;
+  border: 2px dashed black;
+}
+
+/* fine main*/
+
+/* inizio footer  */
+
+/* inzio prima sezione */
+
+.section-black {
+  background-color: rgb(33, 33, 33);
+  height: 400px;
+  padding-top: 10px;
+}
+
+.container-reverse {
+  flex-direction: row-reverse;
+}
+
+/* fine seconda sezione */
+
+.blocco-rosa-dark {
+  background-color: rgb(214, 125, 228);
+  width: 25%;
+  height: 350px;
+  border: 2px dashed black;
+}
+
+.linea-separazione {
+  border-bottom: 10px solid grey;
+  width: 100%;
+}
+
+.section-black-bottom {
+  background-color: rgb(33, 33, 33);
+  height: 100px;
+  padding-top: 10px;
+}
+
+.menu-bottom {
+  background-color: rgb(0, 255, 204);
+  padding: 8px;
+  margin: 10px auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.taste-logo-bottom {
+  border: 2px dashed black;
+  width: 33%;
+  text-align: start;
+  background-color: rosybrown;
+}
+
+.taste-login-bottom {
+  border: 2px dashed black;
+  width: 33%;
+  text-align: end;
+  background-color: rosybrown;
+}
